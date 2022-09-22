@@ -1,5 +1,12 @@
-# resume_cv_filter_tool
+# Resume/CV filter tool
+
 A python program with gui that allows you to filter a folder of resume/cv by keyword.
+
+Requirements:
+
+- pip install PyPDF2
+- pip install tkinter
+- pip install sv_ttk
 
 Folder must be pdf files only.
 
