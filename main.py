@@ -25,8 +25,7 @@ def openfile(entry_box):
 
 
 def app():
-    """Create a directory and fill it with the CV/resumes that contains the
-    keyword"""
+    ""tk init and grids"""
     # tk init
     root = tk.Tk()
     root.title("Resume/CV filter tool")
@@ -59,7 +58,8 @@ def app():
 
 
 def main():
-    """main filter function"""
+    """Create a directory and fill it with the CV/resumes that contains the
+    keyword"""
     print(directory)
     dir = directory + "/"
     list_file = os.listdir(dir)
