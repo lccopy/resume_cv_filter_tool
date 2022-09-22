@@ -25,7 +25,7 @@ def openfile(entry_box):
 
 
 def app():
-    ""tk init and grids"""
+    """tk init and grids"""
     # tk init
     root = tk.Tk()
     root.title("Resume/CV filter tool")
